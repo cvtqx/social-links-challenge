@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 30%;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: hsl(0, 0%, 12%);
+  text-align: center;
+  width: 337px;
+  border-radius: 10px;
+  padding: 2rem 0.75rem;
+}
+
+.card__links__link {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 5px;
+  height: 35px;
+  margin: 0.75rem 2rem;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.card__links__link:hover {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.green-text {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.description-text {
+  font-size: 0.8rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
