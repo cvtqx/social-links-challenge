@@ -21,7 +21,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: [Github](https://github.com/cvtqx/social-links-challenge)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Github Pages](https://cvtqx.github.io/social-links-challenge/)
 
 ## My process
 
